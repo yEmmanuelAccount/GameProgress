@@ -1,5 +1,9 @@
 :root {
     --white: #dfdfdf;
+    --black: #555;
+    --blackPuss: #222;
+    --background-color: #dfdfdf;
+    --colorText: #333;
     --backgrond--body: #dfdfdf;
     --label--login: #333;
     --placeholder-color: #222;

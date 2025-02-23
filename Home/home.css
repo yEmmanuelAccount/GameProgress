@@ -1,0 +1,48 @@
+@import url('../cores.css');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: var(--backgrond--body);
+    color: var(--colorText);
+}
+
+header {
+    background-color: var(--blackPuss);
+    padding: 15px;
+    color: var(--white);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+nav ul .active {
+    font-weight: bold;
+    color: var(--white);
+    border-bottom: 2px solid white;
+}
+
+.description {
+    margin: 50px auto;
+    max-width: 600px;
+    font-size: 20px;
+}
