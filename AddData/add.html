@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Adicionar Data</title>
+  <!-- Importa as cores globais e o CSS específico da página AddData -->
+  <link rel="stylesheet" href="../cores.css">
+  <link rel="stylesheet" href="add.css">
+</head>
+<body>
+  <header>
+    <h1>Adicionar Data</h1>
+  </header>
+  <main>
+    <form id="dataForm">
+      <!-- Sessão Data -->
+      <fieldset>
+        <legend>Data</legend>
+        <label for="dataInput">Data:</label>
+        <input type="date" id="dataInput" name="dataInput" required>
+      </fieldset>
+      
+      <!-- Sessão Perfil -->
+      <fieldset>
+        <legend>Perfil</legend>
+        <label for="queijosColetados">Queijos Coletados:</label>
+        <input type="number" id="queijosColetados" name="queijosColetados" required>
+        
+        <label for="queijosLoja">Queijos na Loja:</label>
+        <input type="number" id="queijosLoja" name="queijosLoja" required>
+        
+        <label for="firsts">Firsts:</label>
+        <input type="number" id="firsts" name="firsts" required>
+        
+        <label for="bootcamp">Bootcamp:</label>
+        <input type="number" id="bootcamp" name="bootcamp" required>
+        
+        <label for="morangos">Morangos:</label>
+        <input type="number" id="morangos" name="morangos" required>
+        
+        <label for="pontosAventura">Pontos de Aventura:</label>
+        <input type="number" id="pontosAventura" name="pontosAventura" required>
+      </fieldset>
+      
+      <!-- Sessão Parkour -->
+      <fieldset>
+        <legend>Parkour</legend>
+        <label for="mapasCompletados">Mapas Completados:</label>
+        <input type="number" id="mapasCompletados" name="mapasCompletados" required>
+        
+        <label for="pontosLojaParkour">Pontos na Loja:</label>
+        <input type="number" id="pontosLojaParkour" name="pontosLojaParkour" required>
+      </fieldset>
+      
+      <!-- Sessão Circuit -->
+      <fieldset>
+        <legend>Circuit</legend>
+        <label for="classe">Classe:</label>
+        <input type="text" id="classe" name="classe" required>
+        
+        <label for="reputacao">Reputação:</label>
+        <input type="number" id="reputacao" name="reputacao" required>
+        
+        <label for="vitorias">Vitórias:</label>
+        <input type="number" id="vitorias" name="vitorias" required>
+        
+        <label for="podios">Pódios:</label>
+        <input type="number" id="podios" name="podios" required>
+        
+        <label for="mapasCompletosCircuit">Mapas Completos:</label>
+        <input type="number" id="mapasCompletosCircuit" name="mapasCompletosCircuit" required>
+        
+        <label for="rounds">Rounds:</label>
+        <input type="number" id="rounds" name="rounds" required>
+      </fieldset>
+      
+      <!-- Sessão Vanilla -->
+      <fieldset>
+        <legend>Vanilla</legend>
+        <label for="savesNormal">Saves Normal:</label>
+        <input type="number" id="savesNormal" name="savesNormal" required>
+        
+        <label for="savesDificil">Saves Difícil:</label>
+        <input type="number" id="savesDificil" name="savesDificil" required>
+        
+        <label for="savesDivino">Saves Divino:</label>
+        <input type="number" id="savesDivino" name="savesDivino" required>
+      </fieldset>
+      
+      <button type="submit">Salvar Data</button>
+    </form>
+    <!-- Botão para baixar o arquivo CSV com as datas salvas -->
+    <button id="downloadCsv">Baixar CSV</button>
+  </main>
+  <footer>
+    <p>&copy; 2025</p>
+  </footer>
+  <script src="add.js"></script>
+</body>
+</html>

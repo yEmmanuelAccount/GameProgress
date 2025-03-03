@@ -1,12 +1,12 @@
 :root {
     --white: #dfdfdf;
     --black: #555;
-    --blackPuss: #222;
-    --background-color: #dfdfdf;
-    --colorText: #333;
-    --backgrond--body: #dfdfdf;
+    --black--puss: #222;
+    --background--color: #000000;
+    --color--text: #f4eeee;
+    --backgrond--body: #000000;
     --label--login: #333;
-    --placeholder-color: #222;
+    --placeholder--color: #222;
     --section--color: #555;
     --submit--label: #fff;
     --submit--button--hover: #000;
